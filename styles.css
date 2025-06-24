@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #F7F7F7;
+    color: #4C0033; /* rich eggplant */
+}
+
+header {
+    background-color: #7A288A; /* deep plum */
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+}
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-list table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.contact-list th, .contact-list td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.contact-list th {
+    background-color: #C7B8EA; /* soft lavender */
+}
+
+.btn {
+    background-color: #7A288A; /* deep plum */
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
